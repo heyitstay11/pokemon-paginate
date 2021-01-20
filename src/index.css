@@ -1,0 +1,75 @@
+body {
+  min-height: 100vh;
+  position: relative;
+  background-color: antiquewhite;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-width: 100%;
+  min-height: 80vh;
+  margin-top: 15vh;
+  margin-bottom: 1rem;
+}
+
+.card{
+  text-align: center;
+ min-width: 25vw;
+ max-height: 300px;
+ background-color: aliceblue;
+ border-radius: 1em;
+ padding: .6rem 5px;
+ margin: .8rem 4px;
+}
+
+.card h1, .card p{
+  margin: 0;
+  padding: 0;
+  transform: translateY(-1rem);
+}
+
+.card img{
+  position: relative;
+  min-height: 130px;
+  min-width: 130px;
+}
+
+header{
+  position: absolute;
+  top:0;
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  margin:0;
+  padding: 0;
+}
+.paginate{
+display: flex;
+justify-content: center;
+margin: 1rem auto ;
+}
+
+.paginate button{
+  font-size: 1.2rem;
+  margin: 1rem 1rem;
+  outline: none;
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
